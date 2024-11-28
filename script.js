@@ -7,7 +7,7 @@ let price = km * priceForKm;
 // 3-Va applicato uno sconto del 20% per i minorenni
 if (age <= 18) {
   price -= price * 0.20; 
-}else
+}
 // 4-Va applicato uno sconto del 40% per gli over 65.
  if (age >= 65){
     price -= price * 0.40;
